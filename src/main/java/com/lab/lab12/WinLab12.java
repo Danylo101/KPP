@@ -45,8 +45,8 @@ public class WinLab12 extends JFrame {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
+        g.setColor(Color.BLUE);
         for (Polygon polygon : polygons) {
-            g.setColor(Color.BLUE);
             g.drawPolygon(polygon);
         }
 

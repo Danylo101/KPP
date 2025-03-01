@@ -24,6 +24,6 @@ public class PostalDispatch {
     }
 
     public String costPerKm() {
-        return "\nCost per 1 km: " + (cost / distance) * weight + " UAH";
+        return "\nCost per 1 km: " + cost / distance + " UAH";
     }
 }
